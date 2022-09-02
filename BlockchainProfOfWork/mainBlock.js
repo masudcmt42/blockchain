@@ -24,7 +24,7 @@ class Block{
 
 class Blockchin{
     constructor() {
-        this.chain = [this.createGenesisBlock];
+        this.chain = [this.createGenesisBlock()];
         this.deficalty = 4;
     }
     createGenesisBlock() {

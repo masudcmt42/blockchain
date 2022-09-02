@@ -14,7 +14,7 @@ class Block{
 
 class Blockchin{
     constructor() {
-        this.chain = [this.createGenesisBlock];
+        this.chain = [this.createGenesisBlock()];
     }
     createGenesisBlock() {
         return new Block(0, "01//1/2022", "genesis Block", "Fist");
